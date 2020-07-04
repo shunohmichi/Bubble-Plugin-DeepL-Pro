@@ -1,0 +1,52 @@
+{
+    "auth": "private_key_url",
+    "calls": {
+        "AAD": {
+            "initialized": true,
+            "method": "get",
+            "name": "Translating text",
+            "params": {
+                "AAE": {
+                    "doc": "",
+                    "key": "text",
+                    "private": true,
+                    "value": "Hello",
+                    "visibility": "public"
+                },
+                "AAF": {
+                    "doc": "\"DE\" - German\n\"EN\" - English\n\"FR\" - French\n\"IT\" - Italian\n\"JA\" - Japanese\n\"ES\" - Spanish\n\"NL\" - Dutch\n\"PL\" - Polish\n\"PT-PT\" - Portuguese (all Portuguese varieties excluding Brazilian Portuguese)\n\"PT-BR\" - Portuguese (Brazilian)\n\"PT\" - Portuguese (unspecified variant for backward compatibility; please select PT-PT or PT-BR instead)\n\"RU\" - Russian\n\"ZH\" - Chinese",
+                    "key": "target_lang",
+                    "private": true,
+                    "value": "JA"
+                },
+                "AAG": {
+                    "doc": "\"DE\" - German\n\"EN\" - English\n\"FR\" - French\n\"IT\" - Italian\n\"JA\" - Japanese\n\"ES\" - Spanish\n\"NL\" - Dutch\n\"PL\" - Polish\n\"PT\" - Portuguese (all Portuguese varieties mixed)\n\"RU\" - Russian\n\"ZH\" - Chinese",
+                    "key": "source_lang",
+                    "optional": true,
+                    "private": true,
+                    "value": "EN"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1593845906248x142059822826389500.plugin_api.AAD",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Translating text\",\"fields\":{\"_p_translations\":{\"ret_value\":\"list.api.1593845906248x142059822826389500.plugin_api.AAD.translations\",\"caption\":\"translations\",\"path\":[\"translations\"]}}},\"plugin_api.AAD.translations\":{\"caption\":\"Translating text translation\",\"fields\":{\"_p_detected_source_language\":{\"ret_value\":\"text\",\"caption\":\"detected_source_language\",\"path\":[\"detected_source_language\"]},\"_p_text\":{\"ret_value\":\"text\",\"caption\":\"text\",\"path\":[\"text\"]}}}}",
+            "url": "https://api.deepl.com/v2/translate"
+        },
+        "AAI": {
+            "body_type": "json",
+            "initialized": true,
+            "method": "get",
+            "name": "Monitoring usage",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1593845906248x142059822826389500.plugin_api.AAI",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAI\":{\"caption\":\"Monitoring usage\",\"fields\":{\"_p_character_count\":{\"ret_value\":\"text\",\"caption\":\"character_count\",\"path\":[\"character_count\"]},\"_p_character_limit\":{\"ret_value\":\"text\",\"caption\":\"character_limit\",\"path\":[\"character_limit\"]}}}}",
+            "url": "https://api.deepl.com/v2/usage"
+        }
+    },
+    "human": "DeepL  Pro",
+    "token_param_name": "auth_key"
+}

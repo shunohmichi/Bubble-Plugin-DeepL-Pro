@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "small business",
+        "2": "news",
+        "3": "blog",
+        "4": "technical"
+    },
+    "demo_page": "https://deepl-translate.bubbleapps.io/",
+    "description": "deepl proのAPIを利用して、テキストの翻訳ができるプラグインです。ディープラーニングによる高精度な翻訳を手軽に利用可能です。\n\nIt is a plugin that can translate texts using deepl pro API. You can easily use highly accurate translation by deep learning.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1593622513357x950013865328649000/NJWxM0QH_400x400.jpg",
+    "license": "open_source",
+    "link": "https://www.deepl.com/docs-api/introduction/",
+    "name": "DeepL Pro",
+    "plugin_instructions": "本プラグインの利用にあたり、DeepL Pro（DeepL APIプラン）の登録、およびDeepL Proの認証キーが必要です。\n\nauth_keyに認証キーを入力し、target_lang、必要に応じてsource_langに下記の翻訳対象の言語のパラメーターを入力してください。\n\n翻訳可能な言語は以下となります。\n\n\"DE\" - German\n\"EN\" - English\n\"FR\" - French\n\"IT\" - Italian\n\"JA\" - Japanese\n\"ES\" - Spanish\n\"NL\" - Dutch\n\"PL\" - Polish\n\"PT\" - Portuguese\n\"RU\" - Russian\n\"ZH\" - Chinese\n\n-In order to use this plug-in, DeepL Pro (DeepL API plan) registration and DeepL Pro authentication key are required.\n\nEnter the authentication key in auth_key, and the target_lang and, if necessary, the following parameters of the target language for translation in source_lang.\n\nThe languages that can be translated are as follows.\n\n\"DE\"-German\n\"EN\"-English\n\"FR\"-French\n\"IT\"-Italian\n\"JA\"-Japanese\n\"ES\"-Spanish\n\"NL\"-Dutch\n\"PL\"-Polish\n\"PT\"-Portuguese\n\"RU\"-Russian\n\"ZH\"-Chinese\n\n"
+}
